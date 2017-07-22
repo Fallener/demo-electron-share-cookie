@@ -24,9 +24,7 @@ Object.defineProperties(window,{
 
 /* 获取cookie. */
 window._autoChangeOSCAvatar = () => {
-    const {
-        session
-    } = require('electron').remote
+    const { session } = require('electron').remote
 
     session.defaultSession.cookies.get({
         url: window.location.href
@@ -44,7 +42,6 @@ window._autoChangeOSCAvatar = () => {
         当前目录下的 test.jpeg 图片.
         另外,此处文件注意使用 jpeg 后缀.这要是 OSC 本身的限制.*/
         const imgPath = path.resolve(__dirname,"./test.jpeg")
-        console.log(imgPath)
 
         /* 此处,将文件转换为 base64,只是因为 osc 的头像变更接口,设计如此!! */
         const imgData = base64Img.base64Sync(imgPath)
