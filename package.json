@@ -1,0 +1,27 @@
+{
+  "name": "demo-electron-share-cookie",
+  "version": "1.0.0",
+  "description": "Electron 共享 cookie",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ios122/demo-electron-share-cookie.git"
+  },
+  "keywords": [
+    "electron",
+    "cookie"
+  ],
+  "author": "颜风",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ios122/demo-electron-share-cookie/issues"
+  },
+  "homepage": "https://github.com/ios122/demo-electron-share-cookie#readme",
+  "dependencies": {
+    "base64-img": "^1.0.3",
+    "jquery": "^2.2.4"
+  }
+}
